@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TesteDeConhecimento2</title>
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Verificador de idade</h1>
+    </header>
+
+    <section>
+      <div id="quadrado">
+        <p>
+          Ano de Nascimento:
+          <input type="number" name="textAno" id="textAno" />
+        </p>
+
+        <p>
+          <label for="">Sexo: </label>
+          <input type="radio" name="genero" id="masculino" checked />
+          <label for="">Masculino</label>
+          <input type="radio" name="genero" id="feminino" />
+          <label for="">Feminino</label>
+        </p>
+
+        <p>
+          <input type="button" value="Verificar" onclick="Verificar()" />
+        </p>
+      </div>
+      <div id="res">Preencha os dados acima para obter o resultado</div>
+      <img id="img" src="" alt="" />
+    </section>
+    <script src="script.js"></script>
+    <footer>
+      <p>&copy; FernandoAdyson</p>
+    </footer>
+  </body>
+</html>

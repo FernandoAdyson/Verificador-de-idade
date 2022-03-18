@@ -1,0 +1,31 @@
+header{
+    color: Black;
+    font: bold 15pt roboto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section{
+    width: 400px;
+    background-color: black;
+    font: bold 10pt Arial;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.404);
+    border: 3px solid;
+    border-color: white ;
+    margin: auto;
+}
+body{
+    color: white;
+    text-align: center;
+    background-color: rgb(212, 212, 211);
+}
+DIV#IMG,div#res{
+    padding: 10px;
+}
+
+footer{
+    color: black;
+    font: bold 10pt Arial;
+}
